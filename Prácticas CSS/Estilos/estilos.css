@@ -1,0 +1,62 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* Estilo de header */
+/*header {
+    background: linear-gradient(to left, rgba(233, 241, 252,3) 0%, rgba(255,255,255,1) 100%);
+    padding: 1px;
+    text-align: center;
+    font-size: 35px;
+    color: #A87D9D;
+} */
+
+/*Para crear las columnas*/
+nav {
+    float: left;
+    width: 25%;
+    height: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.textoImg{
+    position: absolute;
+    top: 2770px;
+    left: 998px;
+}
+
+h4{
+    font-family: 'Merriweather Sans', sans-serif;
+    color:midnightblue;
+}
+
+.content {
+    justify-content: center;
+    text-align: center;
+  }
+/* Estilo de footer */
+footer {
+    margin: 20px;
+    background-color: #eef3ff;
+    padding: 50px;
+    color: #818ea4;
+    height: 350px;
+    
+}
+
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
